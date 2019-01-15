@@ -1,0 +1,359 @@
+@font-face {
+    font-family: OpenSans;
+    src:url(../themes/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Semibold;
+    src:url(../themes/fonts/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Italic;
+    src:url(../themes/fonts/OpenSans-Italic.ttf);
+}
+
+body {
+    font-family: OpenSans !important;
+    font-weight: 400 !important;
+}
+
+.clear-fix {
+    clear:both;
+    
+}
+
+
+.user-details {
+    background: #fff !important;
+    color: #333 !important;
+    cursor:inherit;
+}
+
+.user-details h3 {
+    font-family: OpenSans !important;
+    text-align: center;
+    font-size: 20px !important;
+    margin-bottom: 0px!important;
+}
+
+.user-details p {
+    font-family: OpenSans !important;
+    text-align: center;
+    font-size: 18px !important;
+    margin-top: 0px !important;
+}
+
+.user-profile {
+    background: url(../themes/images/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  font-family: OpenSans !important;
+}
+
+.user-profile img {
+    padding-top: 40px;
+}
+
+.user-profile h2 {
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 28px;
+}
+
+.user-profile h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom:10px;
+}  
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.footer-nav ul {
+    list-style: none;
+    display: inline-flex;
+    width: 100%;
+}
+
+.footer-nav hr {
+    border-color:#777;
+}
+
+.footer-nav ul li {
+    width: 33%;
+    text-align: center;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ui-footer {
+    background-color: #1d1d1d !important;
+    border-color: #1b1b1b !important;
+    color: #fff !important;
+}
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+    list-style-type:none;
+    padding:0;
+    
+    -moz-user-select:none;
+    -webkit-user-select:none;
+  }
+  .rating-stars ul > li.star {
+    display:inline-block;
+    
+  }
+  
+  /* Idle State of the stars */
+  .rating-stars ul > li.star > i.fa {
+    font-size:16px; /* Change the size of the stars */
+    color:#ccc; /* Color on idle state */
+  }
+  
+  /* Hover state of the stars */
+  .rating-stars ul > li.star.hover > i.fa {
+    color:#FFCC36;
+  }
+  
+  /* Selected state of the stars */
+  .rating-stars ul > li.star.selected > i.fa {
+    color:#FF912C;
+  }
+  
+
+.ed-sec-1 .single-star ul > li.star > i.fa {
+    font-size:18px; /* Change the size of the stars */
+}
+
+.ed-sec-1 {
+    padding: 40px 10px;
+    text-align: center;
+    background: url(images/pic.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.ed-sec-2 {
+	padding: 20px 0px;
+	float: left;
+	width: 100%;
+}
+
+.ed-sec-2-item {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.ed-sec-2-item img {
+    width: 210px;
+    height:198px;
+}
+
+.ed-sec-3 {
+    background: url(../themes/images/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align:center;
+  color:#fff;
+  padding:30px 0px;
+}
+
+.ed-sec-3 a {
+	color:red;
+	text-shadow:none;
+} 
+
+.ed-sec-4 {
+    background: url(../themes/images/bg1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ed-sec-4 .ui-collapsible {
+	margin:0px;
+	border-radius:0px;
+}
+
+.ed-sec-4 .ui-collapsible-content {
+	background-color:transparent;
+	border:none !important;
+}
+
+.ed-sec-4 ul li {
+	position:relative !important;
+	background-color:transparent !important;
+	color:#fff !important;
+	text-shadow:none !important;
+	border:none !important;
+}
+
+.ed-sec-4 ul li .rating-widget {
+	position:absolute;
+	right:20px;
+	top:20px;
+}
+
+.ed-sec-4 span {
+	float:left;
+}
+
+.ed-sec-4 span ul {
+	margin:0px;
+	padding-left:20px;
+}
+
+.event-location {
+	padding:20px 10px;
+	text-align:center;
+	color:#111;
+}
+
+.ed-sec-4 button {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#176aba+0,4b93d7+100 */
+background: #176aba; /* Old browsers */
+background: -moz-linear-gradient(top, #176aba 0%, #4b93d7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #176aba 0%,#4b93d7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #176aba 0%,#4b93d7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#176aba', endColorstr='#4b93d7',GradientType=0 ); /* IE6-9 */
+color:#fff !important;
+border:none;
+}
+
+.ui-popup-screen {
+	background-color:#000;
+}
+
+/*New Styles*/
+
+.t-hunt {
+    background: url(../themes/images/bg1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 20px 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  
+    font-family: OpenSans !important;
+  }
+  
+  .t-hunt h3 {
+      font-size: 24px;
+      color: #fff;
+  }
+  
+  .t-hunt p {
+      font-size:18px;
+      margin-top:0px;
+      margin-bottom: 5px;
+  }
+  
+  .t-hunt button {
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#176aba+0,4b93d7+100 */
+      background: #176aba; /* Old browsers */
+      background: -moz-linear-gradient(top, #176aba 0%, #4b93d7 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #176aba 0%,#4b93d7 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, #176aba 0%,#4b93d7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#176aba', endColorstr='#4b93d7',GradientType=0 ); /* IE6-9 */
+      color:#fff !important;
+      border:none;
+      -webkit-border-radius: 50px !important;
+      -moz-border-radius: 50px !important;
+      border-radius: 50px !important;
+      font-size: 24px;
+  }
+  
+  .support-sec {
+      background-color:#fff;
+    padding: 20px 15px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  
+    font-family: OpenSans !important;
+    text-align:left;
+    color:#333;
+  }
+  
+  .support-sec input {
+    background-color:#fff;
+    color:#333;
+  }
+  
+  .support-sec textarea {
+    background-color:#fff !important;
+    color:#333 !important;
+    min-height:250px;
+  }
+  
+  .support-sec button {
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#176aba+0,4b93d7+100 */
+      background: #176aba; /* Old browsers */
+      background: -moz-linear-gradient(top, #176aba 0%, #4b93d7 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #176aba 0%,#4b93d7 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, #176aba 0%,#4b93d7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#176aba', endColorstr='#4b93d7',GradientType=0 ); /* IE6-9 */
+      color:#fff !important;
+      border:none;
+      -webkit-border-radius: 50px !important;
+      -moz-border-radius: 50px !important;
+      border-radius: 50px !important;
+      font-size: 24px;
+  }
+  
+  
+  #events{
+
+    color: transparent!important;
+  }
+
+
+  .listview>li>a.ui-btn {
+    border-width: 26px 0 0!important;
+  }
+  
+  
+    
+
+
+
+
